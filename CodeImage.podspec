@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "CodeImage"
-  s.version      = "0.0.1"
+  s.version      = "2.0.0"
   s.summary      = "An iOS activity indicator view."
   s.description  = <<-DESC
                   
                     The HUD is meant as a replacement for the undocumented, private UIKit UIProgressHUD 
                     with some additional features.
                    DESC
-  s.homepage     = "http://www.bukovinski.com"
+  s.homepage     = "https://home.cnblogs.com/u/xiezefeng/"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "xiezefeng" => "815040727@qq.com" }
   s.source       = { :git => "https://github.com/xiezefeng/CodeImage.git", :tag => s.version.to_s }
